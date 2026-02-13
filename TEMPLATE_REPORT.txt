@@ -1,0 +1,35 @@
+MktMaker Referral V-1 — Repo: mktmaker-referral-tool
+
+SOURCE-OF-TRUTH (per request)
+- bridge: theme variables + navbar structure + wagmi mobile WalletConnect direct-connect pattern
+- swap: GAME OVER bubble styling concept (implemented as a fixed bubble with pointer-events:none)
+- nodes: spacing / responsive grid rhythm (2-col shells collapsing to 1-col)
+
+THEME VARIABLES
+- /src/styles/Globals.css
+
+NAVBAR (Pattern A: wagmi direct connect, no mobile picker)
+- /src/components/Navbar.jsx
+- /src/styles/Navbar.css
+- Mobile direct connect: matchMedia('(max-width: 900px)') and connect({ connector: primary }) with deterministic primary connector.
+- Decorative layers: pointer-events:none to avoid blocking “Connect Wallet”.
+
+GAME OVER
+- /src/components/GameOverBubble.jsx
+- /src/styles/GameOverBubble.css
+
+PANELS
+- Shell/Tabs: /src/pages/Shell.jsx, /src/components/Tabs.jsx
+- Generator: /src/components/GeneratorPanel.jsx
+- Widgets (x3): /src/components/WidgetsPanel.jsx, /src/components/widgets/*
+- Admin: /src/components/AdminPanel.jsx (referrers left, referees right; export CSV/JSON)
+
+DATA/EXPORT
+- localStorage store: /src/lib/store.js
+- download helper: /src/lib/download.js
+
+ENV
+- VITE_WC_PROJECT_ID required for WalletConnect.
+
+CLOUDFLARE PAGES
+- /public/_redirects included.
