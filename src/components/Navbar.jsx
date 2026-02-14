@@ -30,7 +30,7 @@ export default function Navbar(){
     <div className="mm-navWrap">
       <div className="mm-nav">
         <div className="mm-brand">
-          <div className="mm-titleRow"><span className="mm-dot" /><div className="mm-title">MktMaker Referral V-1</div><span className="mm-dot" /></div>
+          <div className="mm-titleRow"><span className="mm-dot" /><div className="mm-title">Referrals V-1</div><span className="mm-dot" /></div>
           <div className="mm-sub">*** .xyz Labs ***</div>
         </div>
         <div className="mm-center">* * * INSERT COINS * * *</div>
