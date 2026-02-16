@@ -1,4 +1,4 @@
-.mm-card{background:linear-gradient(180deg,rgba(0,255,170,.06),rgba(0,0,0,.02));border:1px solid var(--wire2);border-radius:var(--r18);box-shadow:0 0 0 1px rgba(0,255,170,.08) inset,0 0 28px rgba(0,255,170,.06),0 18px 60px rgba(0,0,0,.45);}
+.mm-card{background:#000;border:1px solid var(--wire2);border-radius:var(--r18);box-shadow:0 0 0 1px rgba(0,255,170,.08) inset,0 0 28px rgba(0,255,170,.06),0 18px 60px rgba(0,0,0,.45);}
 .mm-cardInner{padding:16px;}
 .mm-subhdr{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px;}
 .mm-subhdrLeft{display:flex;align-items:center;gap:10px;}
