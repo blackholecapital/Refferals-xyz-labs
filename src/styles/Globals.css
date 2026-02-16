@@ -13,7 +13,7 @@
 html,body{height:100%;}
 body{
   margin:0;
-    background:
+   background:
     radial-gradient(1200px 600px at 40% 0%, rgba(0,255,170,.08), transparent 55%),
     radial-gradient(900px 500px at 80% 40%, rgba(0,255,170,.06), transparent 60%),
     url("/wallpaper333.png") center/cover no-repeat fixed,
